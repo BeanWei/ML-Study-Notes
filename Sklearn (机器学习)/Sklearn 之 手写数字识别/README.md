@@ -10,6 +10,7 @@
 from sklearn import dataset
 dataset.load_digis()
 ```
+- 总共有 1797 个样本, 每个样本包括8*8像素的图像和一个[0, 9]整数的标签
 
 ### MNIST 数据集
 MNIST 数据集来自美国国家标准与技术研究所, National Institute of Standards and Technology (NIST). 训练集 (training set) 由来自 250 个不同人手写的数字构成, 其中 50% 是高中学生, 50% 来自人口普查局 (the Census Bureau) 的工作人员. 测试集(test set) 也是同样比例的手写数字数据.
